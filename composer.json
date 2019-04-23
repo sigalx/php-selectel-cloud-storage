@@ -1,0 +1,22 @@
+{
+    "name": "sigalx/php-selectel-cloud-storage",
+    "description": "Simple and powerful tools to work with Selectel Cloud Storage in your own PHP-application",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Shcheglov",
+            "email": "sigalx@sigalx.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"sigalx\\selectel\\": "src/"}
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.2@dev"
+    }
+}
